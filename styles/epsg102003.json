@@ -5,7 +5,7 @@
   "sources": {
     "us_states": {
       "type": "vector",
-      "tiles": ["https://orangemug.github.io/vector-tile-projection-test/vectortiles/EPSG102003/{z}/{x}/{y}.pbf"],
+      "tiles": ["https://orangemug.github.io/vector-tiles-projection-test/vectortiles/EPSG102003/{z}/{x}/{y}.pbf"],
       "projection": "102003",
       "extent": [
         -2357180.9345227931626141,
