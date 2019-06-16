@@ -1,0 +1,42 @@
+{
+  "version": 8,
+  "name": "Empty Style",
+  "metadata": {"maputnik:renderer": "ol", "maputnik:projection": "EPSG:3031"},
+  "sources": {
+    "antarctic_coast": {
+      "type": "vector",
+      "tiles": ["https://orangemug.github.io/vector-tile-projection-test/vectortiles/EPSG3031/{z}/{x}/{y}.pbf"],
+      "minZoom": 0,
+      "maxZoom": 2,
+      "attribution": "<a href=\"https://add.data.bas.ac.uk\">SCAR Antarctic Digital Database</a>"
+    }
+  },
+  "sprite": "",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {"background-color": "rgba(25, 111, 133, 1)"}
+    },
+    {
+      "id": "coast",
+      "type": "fill",
+      "source": "antarctic_coast",
+      "source-layer": "Coastline_medium_res_polygon",
+      "paint": {"fill-color": "rgba(255, 255, 255, 1)"}
+    },
+    {
+      "id": "coastline",
+      "type": "line",
+      "source": "antarctic_coast",
+      "source-layer": "Coastline_medium_res_polygon",
+      "paint": {
+        "line-color": "rgba(60, 178, 215, 1)",
+        "line-width": 1,
+        "line-blur": 0
+      }
+    }
+  ],
+  "id": "vaetved4y"
+}

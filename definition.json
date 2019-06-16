@@ -1,0 +1,31 @@
+{
+  "output": {
+    "path": "vectortiles/{epsg}/{id}"
+  },
+  "tasks": [
+    {
+      "id": "antarctic_coastline",
+      "name": "",
+      "attribution": "",
+      "description": "",
+      "epsg": "3031",
+      "min_zoom": 0,
+      "max_zoom": 2,
+      "out_dir": "vectortiles/EPSG3031",
+      "__comment": "Why can't this be generated like the other tiling_scheme???",
+      "tiling_scheme": "-12367396.218459858,12367396.218459858,24734792.436919715",
+      "input_file": "data/EPSG3031/Coastline_medium_res_polygon/Coastline_medium_res_polygon.shp"
+    },
+    {
+      "id": "usa_mainland_states",
+      "name": "",
+      "attribution": "",
+      "description": "",
+      "epsg": "102003",
+      "min_zoom": 0,
+      "max_zoom": 2,
+      "out_dir": "vectortiles/EPSG102003",
+      "input_file": "data/EPSG4326/ne_110m_admin_1_states_provinces_shp_tidy.geojson"
+    }
+  ]
+}

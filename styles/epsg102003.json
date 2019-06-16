@@ -1,0 +1,30 @@
+{
+  "version": 8,
+  "name": "Empty Style",
+  "metadata": {"maputnik:projection": "EPSG:102003", "maputnik:renderer": "ol"},
+  "sources": {
+    "us_states": {
+      "type": "vector",
+      "tiles": ["https://orangemug.github.io/vector-tile-projection-test/vectortiles/EPSG102003/{z}/{x}/{y}.pbf"],
+      "minZoom": 0,
+      "maxZoom": 2
+    }
+  },
+  "sprite": "",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {"background-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "states",
+      "type": "line",
+      "source": "us_states",
+      "source-layer": "ne_110m_admin_1_states_provinces_shp_tidy",
+      "paint": {"line-color": "rgba(255, 255, 255, 1)"}
+    }
+  ],
+  "id": "jrly5gnby"
+}

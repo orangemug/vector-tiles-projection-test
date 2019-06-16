@@ -1,0 +1,12 @@
+version: '3.2'
+services:
+  dev:
+    build: 
+      dockerfile: Dockerfile
+      context: .
+    ports:
+      - "5007:5007"
+    volumes:
+      - ./:/code:delegated
+    working_dir: /code
+    command: python3 server.py
