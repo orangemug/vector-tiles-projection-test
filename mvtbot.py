@@ -39,15 +39,15 @@ def run_command(command):
     return exitcode
 
 
-def generateMVT(id, epsg, min_zoom, max_zoom, out_dir, input_file, compress=False, name="", attribution="", description="", tiling_scheme=None):
+def generateMVT(id, epsg, min_zoom, max_zoom, out_dir, input_file, compress=False, name="", attribution="", description=""):
     epsg = int(epsg)
 
     extent = getMaxExtent(
         input_file,
         epsg)
+    print(extent)
 
-    if tiling_scheme == None:
-        tiling_scheme = formatTilingScheme(extent)
+    tiling_scheme = formatTilingScheme(extent)
 
     # Because I can't work out how to do this in python at the moment
     cmd = ['ogr2ogr',
@@ -132,8 +132,7 @@ def run_cli(input_file):
             # optional
             name=task.get('name'),
             attribution=task.get('attribution'),
-            description=task.get('description'),
-            tiling_scheme=task.get('tiling_scheme'),
+            description=task.get('description')
         )
 
 parser = argparse.ArgumentParser(description='Convert sources to mapbox-vector-tiles with GDAL.')
