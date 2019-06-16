@@ -34,5 +34,7 @@ There are some styles you can try out in the [experimental projection Maputnik b
 
 
 ## License
-MIT
+Code is released as MIT
+
+The data is from external sources as stated in the READMEs, which have their own license
 
