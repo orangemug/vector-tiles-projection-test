@@ -11,7 +11,7 @@ Some vector tiles in various projections to test maputnik openlayers projection 
 Just run
 
 ```
-docker-compose run dev python3 mvtbot.py
+docker-compose run dev sh -c "rm -rf vectortiles/*; python3 mvtbot.py definition.json"
 docker-compose up
 ```
 
