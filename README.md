@@ -6,6 +6,14 @@ Some vector tiles in various projections to test maputnik openlayers projection 
 [stability]:   https://github.com/orangemug/stability-badges#experimental
 
 
+There is a demo of projections working inside a branch of maputnuk, you can try those out here
+
+ - [https://orangemug.github.io/vector-tiles-projection-test/styles/epsg102003.json](https://1397-84182601-gh.circle-artifacts.com/0/artifacts/build/index.html?style=https://orangemug.github.io/vector-tiles-projection-test/styles/epsg102003.json)
+ - [https://orangemug.github.io/vector-tiles-projection-test/styles/epsg3031.json](https://1397-84182601-gh.circle-artifacts.com/0/artifacts/build/index.html?style=https://orangemug.github.io/vector-tiles-projection-test/styles/epsg3031.json)
+
+_Note_: The above links to a experimental version of Maputnik which may disappear at any time
+
+
 
 ## Usage
 Just run
@@ -21,8 +29,8 @@ There are some styles you can try out in the [experimental projection Maputnik b
    - <http://localhost:5007/styles/epsg102003.json>
    - <http://localhost:5007/styles/epsg3031.json>
  - Hosted (links load in Maputnik)
-   - [https://orangemug.github.io/vector-tiles-projection-test/styles/epsg102003.json](https://1397-84182601-gh.circle-artifacts.com/0/artifacts/build/index.html?style=https://orangemug.github.io/vector-tiles-projection-test/styles/epsg102003.json)
-   - [https://orangemug.github.io/vector-tiles-projection-test/styles/epsg3031.json](https://1397-84182601-gh.circle-artifacts.com/0/artifacts/build/index.html?style=https://orangemug.github.io/vector-tiles-projection-test/styles/epsg3031.json)
+   - <https://orangemug.github.io/vector-tiles-projection-test/styles/epsg102003.json>
+   - <https://orangemug.github.io/vector-tiles-projection-test/styles/epsg3031.json>
 
 
 ## License
