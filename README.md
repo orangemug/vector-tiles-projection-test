@@ -1,4 +1,4 @@
-# vector-tile-projection-test
+# vector-tile-projection-test
 Some vector tiles in various projections to test maputnik openlayers projection support
 
 [![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)][stability]
