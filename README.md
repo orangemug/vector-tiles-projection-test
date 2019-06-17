@@ -8,8 +8,8 @@ Some vector tiles in various projections to test maputnik openlayers projection 
 
 There is a demo of projections working inside a branch of maputnuk, you can try those out here
 
- - [https://orangemug.github.io/vector-tiles-projection-test/styles/epsg102003.json](https://1397-84182601-gh.circle-artifacts.com/0/artifacts/build/index.html?style=https://orangemug.github.io/vector-tiles-projection-test/styles/epsg102003.json)
- - [https://orangemug.github.io/vector-tiles-projection-test/styles/epsg3031.json](https://1397-84182601-gh.circle-artifacts.com/0/artifacts/build/index.html?style=https://orangemug.github.io/vector-tiles-projection-test/styles/epsg3031.json)
+ - [https://orangemug.github.io/vector-tiles-projection-test/styles/epsg102003.json](https://1406-84182601-gh.circle-artifacts.com/0/artifacts/build/index.html?style=https://orangemug.github.io/vector-tiles-projection-test/styles/epsg102003.json)
+ - [https://orangemug.github.io/vector-tiles-projection-test/styles/epsg3031.json](https://1406-84182601-gh.circle-artifacts.com/0/artifacts/build/index.html?style=https://orangemug.github.io/vector-tiles-projection-test/styles/epsg3031.json)
 
 _Note_: The above links to a experimental version of Maputnik which may disappear at any time
 
