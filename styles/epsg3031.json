@@ -6,7 +6,7 @@
     "antarctic_coast": {
       "type": "vector",
       "tiles": ["https://orangemug.github.io/vector-tiles-projection-test/vectortiles/EPSG3031/{z}/{x}/{y}.pbf"],
-      "ol:projection": "3031",
+      "ol:projection": "EPSG:3031",
       "ol:extent": [
         -2661797.0,
         -2491506.0,
